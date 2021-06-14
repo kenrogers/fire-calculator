@@ -1,29 +1,19 @@
-# Next.js + Tailwind CSS Example
+# SimpleFIRE
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) (v2.1) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+The world's simplest financial independence calculator.
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+SimpleFIRE was built with TypeScript, Next, Tailwind CSS, and Jest + React Testing Library for testing.
 
-## Preview
+## Philosophy
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+SimpleFIRE was built as a quick, simple way to get a picture on what it will take to become financially independent by a certain age.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+This simple version assumes all your assets are in Vanguard's VTSAX fund. It uses the model for financial independence recommended by JL Collins in his book, [The Simple Path to Wealth](https://www.amazon.com/Simple-Path-Wealth-financial-independence/dp/1533667926).
 
-## Deploy your own
+## Usage
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+To run, clone the project and `npm install`.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+Then run the development server with `npm run dev`.
 
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+To test, run `npm run test`.
